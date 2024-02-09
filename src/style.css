@@ -1,0 +1,125 @@
+
+ :root {
+    --primary-color: white;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Audiowide&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+html, 
+body {
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.outside-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*page header*/
+
+#main-header{
+    display: flex;
+    background-color :rgb(21, 89, 92);
+    justify-content: space-between;
+    height: 70px;
+}
+
+.image-logo {
+    width: 70px;
+}
+p {
+    display: flex;
+    color:rgb(255, 255, 255);
+    align-items: center;
+    margin-right: auto;
+    font-family: 'Audiowide', sans-serif;
+
+ }
+
+/*Nav menu*/
+#main-menu {
+    position: absolute;
+    right: 50px;
+    list-style: none;
+    background-color: rgb(21, 89, 92);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+    color:white;
+}
+
+#main-menu >ul {
+    list-style: none;
+    padding: 0;
+}
+
+#main-menu > ul > li > a{
+    display: inline-block;
+    font-size: 0.5rem;
+    color: white;
+    margin: 7px;
+}
+
+#main-menu, #hamburger {
+    display: none;
+}
+
+#hamburger:checked + #main-menu {
+    display: block;
+}
+ 
+
+li {
+    width: 300px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+li  a {
+    text-decoration: none;
+    color: white;
+    font-family: ; 
+}
+li :hover a{
+    color: yellow;
+}
+
+/** Media queries */
+@media (min-width:800px){
+
+    .hamburger-icon{
+        display: none;
+    }
+   #main-menu {
+    display: flex;
+    background: transparent;
+    box-shadow: none;
+    width: 50%;
+    align-items: flex-end;
+    font-size: 15px;
+   }
+}
+
+/*main-content*/
+
+#main-content {
+    background-color: white;
+    flex-grow: 1;
+}
+
+
+.footer-wrapper {
+    background-color:rgb(21, 89, 92);
+}
