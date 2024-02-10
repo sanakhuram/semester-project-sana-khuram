@@ -394,7 +394,7 @@ h3{
 
 
 /* Media Query for smaller screens (e.g., mobile devices) */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
    
     .container {
         flex-direction: column-reverse; 
