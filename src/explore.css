@@ -133,7 +133,7 @@ p {
     font-size: 15px;
   }
   .text-container {
-    order: -1; /* Move text container to the top for alternate layout */
+    order: -1; 
 }
 .explore-banner{
     width: auto;

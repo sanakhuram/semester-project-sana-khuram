@@ -453,8 +453,15 @@ h3{
     .icon:nth-child(5) {
         transform: translateY(-5px);
     }
+    
 
 }
 
-
+/*About Us*/
+.about-us p {
+    background-color: #DC8E47;
+    line-height: 1.9;
+    justify-content: center;
+    padding: 50px;
+}
 
