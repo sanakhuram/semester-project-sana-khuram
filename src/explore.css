@@ -2,8 +2,9 @@
 
 
 .explore-banner{
-
+height: 600px;
 }
+
 .container1 {
     display: flex;
     background-color:#7CA7A0; 
@@ -85,5 +86,9 @@
   }
   .text-container {
     order: -1; /* Move text container to the top for alternate layout */
+}
+.explore-banner{
+    width: auto;
+    height: auto;
 }
 }
