@@ -1,0 +1,89 @@
+@import url("./global.css");
+
+
+.explore-banner{
+
+}
+.container1 {
+    display: flex;
+    background-color:#7CA7A0; 
+}
+
+.container2 {
+    display: flex;
+    background-color:#FFC93C;
+}
+
+.container3 {
+    display: flex;
+    background-color: #E5C5AE;
+}
+
+.container4 {
+    display: flex;
+    background-color: #F29CEA; 
+}
+
+.container5 {
+    display: flex;
+    background-color: #6cbaf1; 
+}
+
+.container6 {
+    display: flex;
+    background-color: #868DCF; 
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+.text-container h2 {
+    color:black;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.text-container p {
+    color: black;
+    font-size: 24px;
+    line-height: 1.6;
+    font-family:'Atkinson Hyperlegible', sans-serif ;
+    text-align: center;
+}
+
+/* Media Query for smaller screens (e.g., mobile devices) */
+@media (max-width: 820px) {
+   
+    .container {
+        flex-direction: column-reverse; 
+    }
+    .container1,
+    .container2,
+    .container3,
+    .container4, 
+    .container5, 
+    .container6 {
+        flex-direction: column;
+    }
+  .text-container h2{
+    font-size: 20px;
+  }
+ .text-container p{
+    line-height: normal;
+    font-size: 15px;
+  }
+  .text-container {
+    order: -1; /* Move text container to the top for alternate layout */
+}
+}
