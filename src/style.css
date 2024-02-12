@@ -156,7 +156,7 @@ li :hover a{
 
 @media only screen 
 and (min-device-width: 240px) 
-and (max-device-width: 600px)
+and (max-device-width: 800px)
 and (-webkit-min-device-pixel-ratio: 2) {
 .heading-over-image {
 font-size: 24px; 
@@ -165,7 +165,7 @@ font-size: 24px;
 /* Portrait */
 @media only screen 
 and (min-device-width: 240px) 
-and (max-device-width: 600px)
+and (max-device-width: 800px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
 .heading-over-image{
@@ -176,7 +176,7 @@ font-size: 24px;
 /* Landscape */
 @media only screen 
 and (min-device-width: 320px) 
-and (max-device-width: 600px)
+and (max-device-width: 800px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
 .heading-over-image {
@@ -191,8 +191,8 @@ font-size: 24px;
     display: grid;
     flex-grow: 1;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;  
- padding: 30px;
+    gap: 20px;  
+ padding:auto;
 }
 h2{
     text-align: center;
@@ -201,7 +201,7 @@ h2{
 }
 .article{
     text-align: center;
-    padding:20px 0;
+    padding:10px 0;
 }
 
 .aerospace{
@@ -214,12 +214,16 @@ height: auto;
     height: auto;
 }
 
+.Starry-Night{
+    background-color: #caa3eb;
+
+}
 .windpower{
     background-color:#9ACAEC;
     height: auto;
 }
  .event-image{
-    height:400px; 
+    height:auto; 
     width: 100%; 
  }
 
@@ -292,12 +296,12 @@ h3{
     display: flex;
     justify-content: space-evenly; 
     gap: 30px;
-    align-items: flex-end;
+    align-items: flex-end;   
 }
 
 .icon{
     width: 200px;
-    height: 200px;
+    height: auto;
     transition: transform 0.3s ease;
 }
 .icon:nth-child(1) {
@@ -405,20 +409,48 @@ h3{
     }
     .text-container1 h3,
     .text-container2 h3 {
-        font-size: 20px; 
+        font-size: 20px;
+        line-height: normal; 
     }
 
     .text-container1 p,
     .text-container2 p {
         font-size: 16px; 
+        line-height: normal;
     }
 
-    .icon-container {
-        display: flex;
-        flex-direction: column; 
-        flex-wrap: wrap;
-        align-items: center; 
-    }
     
 }
+@media (max-width: 1000px) {
+    .icon-container {
+        flex-wrap: nowrap; 
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+    }
+    .icon {
+        width: 150px; 
+        
+    }
 
+    .icon:nth-child(1) {
+        transform: translateY(-5px);
+    }
+    
+    .icon:nth-child(2) {
+        transform: translateY(5px);
+    }
+    
+    .icon:nth-child(3) {
+        transform: translateY(-5px);
+    }
+    
+    .icon:nth-child(4) {
+        transform: translateY(5px);
+    }
+    
+    .icon:nth-child(5) {
+        transform: translateY(-5px);
+    }
+
+}
