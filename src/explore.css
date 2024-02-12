@@ -103,6 +103,7 @@ background-color:#BED3D8 ;
 p {
     text-align: center;
     font-family:'Atkinson Hyperlegible', sans-serif ;
+    margin-bottom: 20px;
 }
 
 /* Media Query for smaller screens (e.g., mobile devices) */
