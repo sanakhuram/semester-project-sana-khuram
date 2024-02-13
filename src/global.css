@@ -3,7 +3,7 @@
 
 :root {
    --primary-color: white;
-   --secondry-color: black;
+   --secondry-color: rgb(19, 236, 91);
 }
 
 
@@ -112,7 +112,7 @@ li :hover a{
 }
 
 /** Media queries */
-@media (min-width:900px){
+@media (min-width:920px){
 
    .hamburger-icon{
        display: none;
@@ -222,6 +222,13 @@ h2{
     font-family:'Audiowide', sans-serif ;
     text-align: center;
 }
+.terms-conditions p a{
+  text-decoration: none;
+  color: yellowgreen;
+  transition: color 0.3s ease-in-out;
+}
+
+
 
 
 
