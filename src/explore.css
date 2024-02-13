@@ -141,6 +141,7 @@ p {
 }
 }
 
+
 /*privacy-terms and conditions*/
 .privacy-policy ,
 .terms-conditions p {
@@ -165,11 +166,7 @@ p {
     text-align:left; 
     font-family: 'Atkinson Hyperlegible', sans-serif;  
 }
-#privacy-policy{
-    padding:2% 15% 2%;
-   
-    
-}
+
 .privacy-policy ,
 .terms-conditions h1{
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -178,3 +175,35 @@ p {
     padding:2% 15% 2%; 
     background-color: #D7D4DB;
 }
+.privacy-policy  p {
+    font-size: 18px;
+    text-align: left;
+    font-family:'Atkinson Hyperlegible', sans-serif ;
+}
+
+.privacy-policy 
+h2 {
+    font-size: 24px;
+    text-align: left;
+    font-family:'Atkinson Hyperlegible', sans-serif ;
+}
+
+.privacy-policy li{
+    font-size: 18px;
+    width: auto;
+    text-align:left; 
+    font-family: 'Atkinson Hyperlegible', sans-serif;  
+}
+#privacy-policy{
+    padding:2% 15% 2%;
+   
+    
+}
+.privacy-policy h1{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+
+.footer-wrapper p{
+    text-align: center;
+ }
