@@ -108,6 +108,7 @@ li  a {
    font-size: 16px;
 }
 /* Corrected hover selector */
+
 li:hover a {
    color: rgba(255, 187, 0, 0.986);
 }
@@ -220,7 +221,7 @@ h2{
     }
 
 .terms-conditions p {
-    font-size: 14px;
+    font-size: 18px;
     font-family:'Audiowide', sans-serif ;
     text-align: center;
 }
