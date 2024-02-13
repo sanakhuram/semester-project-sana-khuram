@@ -142,20 +142,24 @@ p {
 }
 
 /*privacy-terms and conditions*/
-.privacy-policy p {
+.privacy-policy ,
+.terms-conditions p {
     font-size: 18px;
     text-align: left;
+    font-family:'Atkinson Hyperlegible', sans-serif ;
 
 }
 
 
-.privacy-policy h2 {
+.privacy-policy ,
+.terms-conditions h2 {
     font-size: 24px;
     text-align: left;
     font-family:'Atkinson Hyperlegible', sans-serif ;
 }
 
-.privacy-policy li{
+.privacy-policy ,
+.terms-conditions li{
     font-size: 18px;
     width: auto;
     text-align:left; 
@@ -166,6 +170,11 @@ p {
    
     
 }
-.privacy-policy h1{
+.privacy-policy ,
+.terms-conditions h1{
     font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+ #terms-conditions{
+    padding:2% 15% 2%; 
+    background-color: #D7D4DB;
 }
