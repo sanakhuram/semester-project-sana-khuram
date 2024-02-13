@@ -1,6 +1,5 @@
 @import url("./global.css");
-
-
+/*EXPLORE PAGE*/
 .explore-banner{
 height: 600px;
 filter: brightness(70%);
@@ -34,6 +33,10 @@ filter: brightness(70%);
     background-color: #868DCF; 
     margin-bottom: 20px;
 }
+
+
+/*Exhibition Page*/
+
 .container7{
 background-color:#BED3D8 ;
 }
@@ -58,7 +61,8 @@ background-color:#BED3D8 ;
     margin: 20px 0 20px 0;
 
 }
-
+ /*All Containers*/
+ 
 .container1,
 .container2,
 .container3,
@@ -206,4 +210,7 @@ h2 {
 
 .footer-wrapper p{
     text-align: center;
+      font-size: 14px; 
+     font-family: 'Audiowide', sans-serif; 
+     text-align: center;
  }

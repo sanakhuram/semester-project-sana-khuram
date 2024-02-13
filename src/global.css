@@ -107,9 +107,11 @@ li  a {
    font-family: 'Atkinson Hyperlegible', sans-serif;
    font-size: 16px;
 }
-li :hover a{
+/* Corrected hover selector */
+li:hover a {
    color: rgba(255, 187, 0, 0.986);
 }
+
 
 /** Media queries */
 @media (min-width:920px){
@@ -225,10 +227,13 @@ h2{
 .terms-conditions p a{
   text-decoration: none;
   color: yellowgreen;
-  transition: color 0.3s ease-in-out;
 }
-
-
+p a:hover {
+   color: rgb(250, 13, 179); 
+   text-decoration: underline; 
+   font-weight: bold;
+   
+}
 
 
 
