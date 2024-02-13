@@ -112,7 +112,7 @@ li :hover a{
 }
 
 /** Media queries */
-@media (min-width:900px){
+@media (min-width:920px){
 
     .hamburger-icon{
         display: none;
@@ -236,12 +236,13 @@ p {
     font-family: 'Atkinson Hyperlegible', sans-serif ;
     font-size: 18px;
     justify-content: center;
-    padding: 10px 10px 5px 5px;
+    padding: 20px;
     text-align: center;
 }
 
 h3{
     font-family:'Audiowide', sans-serif ;
+    padding-top: 10px;
 }
 
 /*upcomimg events*/
@@ -368,7 +369,7 @@ h3{
 .text-container1 p,
 .text-container2 p {
     font-size: 18px;
-    line-height: 3;
+    line-height: 2.5;
     text-align: center; 
 }
 .text-container2{
@@ -400,7 +401,7 @@ h3{
 
 
 /* Media Query for smaller screens (e.g., mobile devices) */
-@media (max-width: 800px) {
+@media (max-width: 920px) {
    
     .container {
         flex-direction: column-reverse; 
@@ -528,6 +529,33 @@ input[type="submit"]:hover {
 .form{
     flex: 1;
 }
+.visitus-banner{
+    height: 600px;
+filter: brightness(70%);
+
+}
+
+.food-shop-image{
+    width: 100%;
+    height: auto;
+}
+
+.shop-section{
+    background-color: #bdf1e6;
+    margin-bottom: 40px;
+}
+.shop-section p{
+    padding: 30px;
+    line-height: 1.6;
+}
+.food-section{
+    background-color: #DCA47B;
+    margin-bottom: 40px;
+}
+.food-section p{
+    line-height: 1.6;
+    padding: 30px;
+}
 
 @media screen and (max-width: 768px) {
     form {
@@ -536,6 +564,10 @@ input[type="submit"]:hover {
     input[type="submit"] {
         padding: 12px 15px;
     } 
+    .visitus-banner{
+        width: auto;
+        height: auto;
+    }
    
 }
 
