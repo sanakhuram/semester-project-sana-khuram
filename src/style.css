@@ -262,6 +262,7 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
     font-family:'Atkinson Hyperlegible', sans-serif  ;
+    font-size: 20px;
 }
 
 input[type="text"],
