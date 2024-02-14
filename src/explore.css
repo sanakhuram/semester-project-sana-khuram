@@ -103,6 +103,8 @@ background-color:#BED3D8 ;
     line-height: 1.6;
     font-family:'Atkinson Hyperlegible', sans-serif ;
     text-align: center;
+    padding: 40px;
+    justify-content: center;
 }
 p {
     text-align: center;
