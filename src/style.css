@@ -214,9 +214,16 @@ h3{
     }
 
     .text-container1 p,
-    .text-container2 p {
+    .text-container2 p  {
         font-size: 16px; 
         line-height: normal;
+    }
+    .about-us p{
+        font-size: 15px;
+        line-height: normal;
+    }
+    .about-us h1 {
+        font-size: 18px;
     }
 
     
@@ -229,14 +236,14 @@ h3{
     line-height: 1.67;
     justify-content: center;
     padding: 50px;
-    font-size: 28px;
+    
 }
 
 
 .about-us h1 {
     text-align: center;
     padding: 20px;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Audiowide', sans-serif;
 } 
 
