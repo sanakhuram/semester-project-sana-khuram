@@ -51,7 +51,6 @@ h4 {
    margin-right: auto;
    font-family: 'Audiowide', sans-serif;
    font-size: 15px;
-
 }
 
 /*Nav menu*/
@@ -107,7 +106,7 @@ li  a {
    font-family: 'Atkinson Hyperlegible', sans-serif;
    font-size: 16px;
 }
-/* Corrected hover selector */
+
 
 li:hover a {
    color: rgba(255, 187, 0, 0.986);

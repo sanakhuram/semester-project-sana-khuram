@@ -109,7 +109,7 @@ background-color:#BED3D8 ;
 p {
     text-align: center;
     font-family:'Atkinson Hyperlegible', sans-serif ;
-    margin-bottom: 20px;
+   padding-bottom: 20px;
 }
 
 /* Media Query for smaller screens (e.g., mobile devices) */
@@ -201,9 +201,7 @@ h2 {
     font-family: 'Atkinson Hyperlegible', sans-serif;  
 }
 #privacy-policy{
-    padding:2% 15% 2%;
-   
-    
+    padding:2% 15% 2%;    
 }
 .privacy-policy h1{
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -216,3 +214,4 @@ h2 {
      font-family: 'Audiowide', sans-serif; 
      text-align: center;
  }
+ 
