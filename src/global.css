@@ -173,7 +173,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 font-size: 24px; 
 }
 }
-/* Portrait */
+/* Portrait 
 @media only screen 
 and (min-device-width: 240px) 
 and (max-device-width: 800px)
@@ -184,7 +184,7 @@ font-size: 24px;
 }
 }
 
-/* Landscape */
+/* Landscape 
 @media only screen 
 and (min-device-width: 320px) 
 and (max-device-width: 800px)
@@ -193,7 +193,7 @@ and (orientation: landscape) {
 .heading-over-image {
 font-size: 24px; 
 }
-} 
+} */
 
 /*main-content*/
 
@@ -203,7 +203,6 @@ font-size: 24px;
    flex-grow: 1;
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    gap: 20px;  
-padding:auto;
 }
 h2{
    text-align: center;
