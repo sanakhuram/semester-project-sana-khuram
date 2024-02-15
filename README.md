@@ -1,17 +1,3 @@
-# Heading 1
-## Heading 2
-### Heading 3
-<style>
-h1 {
-    font-size: 36px;
-}
-h2 {
-    font-size: 24px;
-}
-h3 {
-    font-size: 18px;
-}
-</style>
 
 <<<<<<< HEAD
 # Community Science Museum
