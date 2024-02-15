@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 # Community Science Museum
 ## “Explore together”
 
