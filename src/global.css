@@ -166,8 +166,8 @@ li:hover a {
 }
 
 @media only screen 
-and (min-device-width: 240px) 
-and (max-device-width: 800px)
+and (min-width: 240px) 
+and (max-width: 800px)
 and (-webkit-min-device-pixel-ratio: 2) {
 .heading-over-image {
 font-size: 24px; 
