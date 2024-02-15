@@ -36,9 +36,14 @@ img{
 
 #main-header{
    display: flex;
-   background-color :rgb(21, 89, 92);
+   background-color :#13475B;
    justify-content: space-between;
-   height: 70px;
+   height: 70px; 
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1000; 
 }
 
 .image-logo {
@@ -125,7 +130,7 @@ li:hover a {
    box-shadow: none;
    width: 50%;
    align-items: flex-end;
-   font-size: 15px;
+   font-size: 16px;
   }
 }
 
@@ -204,7 +209,7 @@ h2{
 }
 /*footer*/
 .footer-wrapper {
-    background-color:rgb(21, 89, 92);
+    background-color:#13475B;
     padding: 20px;
     height: 300px; 
     display: flex;
