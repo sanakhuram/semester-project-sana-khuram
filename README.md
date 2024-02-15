@@ -13,6 +13,7 @@ h3 {
 }
 </style>
 
+<<<<<<< HEAD
 # Community Science Museum
 ## “Explore together”
 
@@ -106,3 +107,7 @@ You can help volunteer in a number of different spheres. Please contact us if yo
 ### Internships
 Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum.
 You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.
+=======
+
+
+>>>>>>> 47b258b109ff9b392d18a7355babcf79dc12c552
