@@ -210,6 +210,9 @@ h2 {
     font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
+.privacy-terms-banner{
+    padding-top: 70px;
+}
 
 .footer-wrapper p{
     text-align: center;
