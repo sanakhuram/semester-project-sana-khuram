@@ -173,29 +173,7 @@ and (min-resolution: 2dppx) {
 font-size: 24px; 
 }
 }
-/* Portrait 
-@media only screen 
-and (min-device-width: 240px) 
-and (max-device-width: 800px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-.heading-over-image{
-font-size: 24px;
-}
-}
 
-/* Landscape 
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 800px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
-.heading-over-image {
-font-size: 24px; 
-}
-} */
-
-/*main-content*/
 
 #main-content {
    background-color: white; 
