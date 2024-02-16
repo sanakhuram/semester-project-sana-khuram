@@ -2,222 +2,211 @@
 
 /*EXPLORE PAGE*/
 
-.explore-banner{
-height: 600px;
-filter: brightness(70%);
-margin-top: 70px;
+.explore-banner {
+  height: 600px;
+  filter: brightness(70%);
+  margin-top: 70px;
 }
 
 .container1 {
-    background-color:#7CA7A0; 
-    margin-top: 20px;
+  background-color: #7ca7a0;
+  margin-top: 20px;
 }
 
 .container2 {
-   
-    background-color:orange;
+  background-color: orange;
 }
 
 .container3 {
-    
-    background-color: rgba(255, 196, 0, 0.925);
+  background-color: rgba(255, 196, 0, 0.925);
 }
 
 .container4 {
-    
-    background-color: #F4DDDD; 
+  background-color: #f4dddd;
 }
 
 .container5 {
-    background-color: #6cbaf1; 
+  background-color: #6cbaf1;
 }
 
 .container6 {
-    background-color: #868DCF; 
-    margin-bottom: 20px;
+  background-color: #868dcf;
+  margin-bottom: 20px;
 }
-
 
 /*Exhibition Page*/
 
-.container7{
-background-color:#BED3D8 ;
+.container7 {
+  background-color: #bed3d8;
 }
-.container8{
-    background-color:#FE816A;
+.container8 {
+  background-color: #fe816a;
 }
 .container9 {
-    background-color: #F4DDDD ;
+  background-color: #f4dddd;
 }
 .container10 {
-    background-color: #9ACAEC ;
+  background-color: #9acaec;
 }
 .container11 {
-    background-color:#8B97DD ;
+  background-color: #8b97dd;
 }
 
 .container7,
 .container8,
 .container9,
 .container10,
-.container11{
-    margin: 20px 0 20px 0;
-
+.container11 {
+  margin: 20px 0 20px 0;
 }
- /*All Containers*/
+/*All Containers*/
 
 .container1,
 .container2,
 .container3,
-.container4, 
-.container5, 
+.container4,
+.container5,
 .container6,
 .container7,
 .container8,
 .container9,
 .container10,
 .container11 {
-    display: flex;
+  display: flex;
 }
 
 .image-container {
-    display: flex;
+  display: flex;
 }
 
 .image-container img {
-    width: 100%;
-    height: auto;
-    padding: 20px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
 }
 
 .text-container {
-    padding: 20px;
+  padding: 20px;
 }
 
 .text-container h2 {
-    color:black;
-    font-size: 30px;
-    margin-top: 0;
+  color: black;
+  font-size: 30px;
+  margin-top: 0;
 }
 
 .text-container p {
-    color: black;
-    font-size: 20px;
-    line-height: 1.67;
-    font-family:'Atkinson Hyperlegible', sans-serif ;
-    text-align: center;
-    padding: 20px;
-    justify-content: center;
+  color: black;
+  font-size: 20px;
+  line-height: 1.67;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
 }
 p {
-    text-align: center;
-    font-family:'Atkinson Hyperlegible', sans-serif ;
-   padding-bottom: 20px;
+  text-align: center;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  padding-bottom: 20px;
 }
 
 /* Media Query for smaller screens (e.g., mobile devices) */
 @media (max-width: 820px) {
-   
-    .container {
-        flex-direction: column-reverse; 
-    }
-    .container1,
-    .container2,
-    .container3,
-    .container4, 
-    .container5, 
-    .container6,
-    .container7,
-    .container8,
-    .container9,
-    .container10,
-    .container11 {
-        flex-direction: column;
-    }
-  .text-container h2{
+  .container {
+    flex-direction: column-reverse;
+  }
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5,
+  .container6,
+  .container7,
+  .container8,
+  .container9,
+  .container10,
+  .container11 {
+    flex-direction: column;
+  }
+  .text-container h2 {
     font-size: 20px;
   }
- .text-container p{
+  .text-container p {
     line-height: normal;
     font-size: 15px;
   }
   .text-container {
-    order: -1; 
-}
-.explore-banner{
+    order: -1;
+  }
+  .explore-banner {
     width: auto;
     height: auto;
+  }
 }
-}
-
 
 /*privacy-terms and conditions*/
-.privacy-policy ,
+.privacy-policy,
 .terms-conditions p {
-    font-size: 18px;
-    text-align: left;
-    font-family:'Atkinson Hyperlegible', sans-serif ;
-
+  font-size: 18px;
+  text-align: left;
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-
-.privacy-policy ,
+.privacy-policy,
 .terms-conditions h2 {
-    font-size: 24px;
-    text-align: left;
-    font-family:'Atkinson Hyperlegible', sans-serif ;
+  font-size: 24px;
+  text-align: left;
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-.privacy-policy ,
-.terms-conditions li{
-    font-size: 18px;
-    width: auto;
-    text-align:left; 
-    font-family: 'Atkinson Hyperlegible', sans-serif;  
+.privacy-policy,
+.terms-conditions li {
+  font-size: 18px;
+  width: auto;
+  text-align: left;
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-.privacy-policy ,
-.terms-conditions h1{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+.privacy-policy,
+.terms-conditions h1 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
- #terms-conditions{
-    padding:2% 15% 2%; 
-    background-color: #D7D4DB;
+#terms-conditions {
+  padding: 2% 15% 2%;
+  background-color: #d7d4db;
 }
-.privacy-policy  p {
-    font-size: 18px;
-    text-align: left;
-    font-family:'Atkinson Hyperlegible', sans-serif ;
-}
-
-.privacy-policy 
-h2 {
-    font-size: 24px;
-    text-align: left;
-    font-family:'Atkinson Hyperlegible', sans-serif ;
+.privacy-policy p {
+  font-size: 18px;
+  text-align: left;
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-.privacy-policy li{
-    font-size: 18px;
-    width: auto;
-    text-align:left; 
-    font-family: 'Atkinson Hyperlegible', sans-serif;  
-}
-#privacy-policy{
-    padding:2% 15% 2%;    
-}
-.privacy-policy h1{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+.privacy-policy h2 {
+  font-size: 24px;
+  text-align: left;
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-.privacy-terms-banner{
-    padding-top: 70px;
+.privacy-policy li {
+  font-size: 18px;
+  width: auto;
+  text-align: left;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+#privacy-policy {
+  padding: 2% 15% 2%;
+}
+.privacy-policy h1 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-.footer-wrapper p{
-    text-align: center;
-      font-size: 16px; 
-     font-family: 'Audiowide', sans-serif; 
-     text-align: center;
- }
- 
+.privacy-terms-banner {
+  padding-top: 70px;
+}
+
+.footer-wrapper p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+}
