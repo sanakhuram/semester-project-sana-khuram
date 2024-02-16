@@ -138,10 +138,11 @@ p {
   .text-container {
     order: -1;
   }
-  .explore-banner {
+  .explore-banner{
     width: auto;
     height: auto;
   }
+
 }
 
 /*privacy-terms and conditions*/
@@ -200,8 +201,16 @@ p {
   font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-.privacy-terms-banner {
+.privacy-terms-banner img {
   padding-top: 70px;
+  height:800px;
+}
+@media only screen and (min-width: 300px) and (max-width: 1200px){
+    .privacy-terms-banner{
+        height: auto;
+        width: auto;
+        padding-top: 70px;
+    }
 }
 
 .footer-wrapper p {
