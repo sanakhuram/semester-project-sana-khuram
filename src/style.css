@@ -130,6 +130,8 @@ h3 {
 .icon-container a:hover::after {
   opacity: 1;
 }
+
+
 .icon-text {
   display: none;
   font-family: "Atkinson Hyperlegible", sans-serif;
@@ -227,6 +229,12 @@ h3 {
   }
   .about-us h1 {
     font-size: 18px;
+  }
+
+  .text-container2 h3{
+    font-family:"Atkinson Hyperlegible", sans-serif ;
+    font-size: 15px;
+    line-height: none;
   }
 }
 
