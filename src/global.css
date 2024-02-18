@@ -221,6 +221,18 @@ p a:hover {
   font-weight: bold;
 }
 
+.terms-conditions p,
+.privacy-policy p {
+transition: all 0.3s ease;
+ 
+}
+
+.terms-conditions p:hover,
+.privacy-policy p:hover {
+  transform: scale(1.1); 
+}
+
+
 video{
    padding-top: 70px;
 }
@@ -243,3 +255,4 @@ video{
   .social-icon{
    width: 80px;
   }
+
