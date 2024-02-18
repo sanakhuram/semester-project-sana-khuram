@@ -170,7 +170,6 @@ li:hover a {
 @media only screen and (min-width: 240px) and (max-width: 800px) and (min-resolution: 2dppx) {
   .heading-over-image {
     font-size: 24px;
-    text-shadow: none;
   }
 
 }
