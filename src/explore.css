@@ -145,9 +145,10 @@ p {
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .text-container p{
-        font-size: 15px;
+        font-size: 18px;
+        line-height: normal;
     }
 }
 
