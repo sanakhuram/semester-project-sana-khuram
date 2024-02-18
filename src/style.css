@@ -234,7 +234,7 @@ h3 {
   .text-container2 h3{
     font-family:"Atkinson Hyperlegible", sans-serif ;
     font-size: 15px;
-    line-height: none;
+    line-height: normal;
   }
 }
 
