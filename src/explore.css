@@ -97,7 +97,7 @@
 
 .text-container p {
   color: black;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.67;
   font-family: "Atkinson Hyperlegible", sans-serif;
   text-align: center;
@@ -144,6 +144,13 @@ p {
   }
 
 }
+
+@media (max-width: 1200px) {
+    .text-container p{
+        font-size: 15px;
+    }
+}
+
 
 /*privacy-terms and conditions*/
 .privacy-policy,
