@@ -302,10 +302,6 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-.dino-container {
-  display: flex;
-  flex-direction: row;
-}
 
 .image img {
   max-width: 100%;
@@ -350,13 +346,14 @@ input[type="submit"]:hover {
   font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   form {
     padding: 15px;
   }
   input[type="submit"] {
     padding: 12px 15px;
   }
+
   .visitus-banner {
     width: auto;
     height: auto;
@@ -365,5 +362,6 @@ input[type="submit"]:hover {
     font-size: 18px;
     padding: 20px;
   }
+
 }
 
