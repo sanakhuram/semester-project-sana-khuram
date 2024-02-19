@@ -50,13 +50,16 @@ img {
   width: 70px;
 }
 
-h4 {
-  display: flex;
-  color: rgb(255, 255, 255);
-  align-items: center;
-  margin-right: auto;
-  font-family: "Audiowide", sans-serif;
-  font-size: 15px;
+
+.logo-text {
+   margin-left: 10px;
+   font-size: 20px;
+}
+#logo-wrapper{
+   display: flex;
+   align-items: center;
+   color: white;
+   font-family:"Audiowide", sans-serif ;
 }
 
 /*Nav menu*/
@@ -221,20 +224,18 @@ video{
 
 
 
-  /* Define styles for the hamburger icon */
   .hamburger-icon img {
-    width: 40px; /* Set initial width */
-    height: auto; /* Maintain aspect ratio */
+    width: 40px;
+    height: auto; 
   }
 
-  /* Media query for screens smaller than 768px (typical mobile screens) */
-  @media (max-width: 900px) {
+ 
+  @media (max-width: 920px) {
     .hamburger-icon img {
       width: 30px;
-      margin-top: 20px; /* Adjust width for smaller screens */
+      margin-top: 20px; /
     }
   }
   .social-icon{
    width: 80px;
   }
-
