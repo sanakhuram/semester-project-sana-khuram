@@ -311,6 +311,13 @@ input[type="submit"]:hover {
   height: auto;
 }
 
+.visit-us{
+    font-family: "Audiowide", sans-serif ;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
 .form {
   flex: 1;
 }
@@ -353,3 +360,5 @@ input[type="submit"]:hover {
     height: auto;
   }
 }
+
+h2
