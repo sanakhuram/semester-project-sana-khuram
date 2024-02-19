@@ -244,6 +244,7 @@ h3 {
   line-height: 1.67;
   justify-content: center;
   padding: 50px;
+  font-size: 24px;
 }
 
 .about-us h1 {
@@ -359,6 +360,10 @@ input[type="submit"]:hover {
   .visitus-banner {
     width: auto;
     height: auto;
+  }
+  .about-us p{
+    font-size: 18px;
+    padding: 20px;
   }
 }
 
