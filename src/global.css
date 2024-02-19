@@ -93,14 +93,6 @@ h4 {
   display: block;
 }
 
-.fa-solid,
-.fas {
-  font-weight: 900;
-  color: rgb(248, 224, 9);
-  padding-right: 5px;
-  margin-top: 25px;
-}
-
 li {
   width: 300px;
   padding: 5px;
@@ -157,7 +149,8 @@ li:hover a {
   text-shadow: 0 0 10px hwb(0 3% 97%), 0 0 20px hwb(180 15% 73%),
     0 0 30px hwb(320 87% 10%), 0 0 40px #009688, 0 0 50px white,
     0 0 60px#009688, 0 0 70px #009688;
-    background-color:#071b1f;
+    background-color:#07091f;
+    border-radius: 40px;
 }
 
 #banner {
