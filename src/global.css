@@ -152,8 +152,9 @@ li:hover a {
   text-shadow: 0 0 10px hwb(0 3% 97%), 0 0 20px hwb(180 15% 73%),
     0 0 30px hwb(320 87% 10%), 0 0 40px #009688, 0 0 50px white,
     0 0 60px#009688, 0 0 70px #009688;
-    background-color:#07091f;
-    border-radius: 40px;
+    background-color:transparent#07091f;
+    border-radius: 10px;
+    padding-top:50px;
 }
 
 #banner {
@@ -168,8 +169,13 @@ li:hover a {
     font-size: 24px;
     text-shadow: none;
   }
+  .logo-text{
+   font-size: 16px;
+  }
 
 }
+
+
 
 #main-content {
   background-color: white;
@@ -220,6 +226,7 @@ p a:hover {
 
 video{
    padding-top: 70px;
+   width: 100%;
 }
 
 
@@ -233,7 +240,7 @@ video{
   @media (max-width: 920px) {
     .hamburger-icon img {
       width: 30px;
-      margin-top: 20px; /
+      margin-top: 20px;
     }
   }
   .social-icon{
