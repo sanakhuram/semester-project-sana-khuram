@@ -108,7 +108,7 @@
 
 .text-container p {
   color: black;
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Atkinson Hyperlegible", sans-serif;
   text-align: center;
   padding: 20px;
@@ -159,7 +159,7 @@ p {
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 920px) {
   .text-container p {
     font-size: 18px;
     line-height: normal;
