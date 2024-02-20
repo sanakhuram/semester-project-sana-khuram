@@ -319,7 +319,7 @@ input[type="submit"]:hover {
   flex: 1;
 }
 .visitus-banner {
-  height: 800px;
+  height: 700px;
   filter: brightness(70%);
 }
 
