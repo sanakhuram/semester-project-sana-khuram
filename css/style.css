@@ -331,6 +331,7 @@ input[type="submit"]:hover {
 .food-shop-image {
   width: 100%;
   height: auto;
+  padding: 20px;
 }
 
 .shop-section {
@@ -340,6 +341,7 @@ input[type="submit"]:hover {
 .shop-section p {
   padding: 30px;
   line-height: 1.6;
+  font-size: 20px;
 }
 .food-section {
   background-color: #e69359;
@@ -358,7 +360,9 @@ input[type="submit"]:hover {
   input[type="submit"] {
     padding: 12px 15px;
   }
-
+  h2{
+    font-size: 20px;
+  }
   .visitus-banner {
     width: auto;
     height: auto;

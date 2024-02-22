@@ -171,8 +171,9 @@ li:hover a {
   .logo-text{
    font-size: 16px;
   }
+  }
 
-}
+  
 #main-content {
   background-color: white;
   display: grid;
@@ -185,6 +186,7 @@ h2 {
   text-align: center;
   font-family: "Audiowide", sans-serif;
   padding: 20px;
+  font-size: 28px;
 }
 
 /*footer*/
