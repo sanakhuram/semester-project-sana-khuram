@@ -174,9 +174,6 @@ li:hover a {
   }
 
 }
-
-
-
 #main-content {
   background-color: white;
   display: grid;
@@ -247,4 +244,13 @@ video{
    width: 80px;
   }
 
- 
+
+@media screen and (max-width: 280px) {
+  #main-header {
+    position: static; 
+  }
+  video{
+    padding-top: 0px;
+    }
+  }
+
