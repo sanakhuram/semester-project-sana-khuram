@@ -4,15 +4,17 @@
   text-align: center;
   padding: 10px 0;
 }
-
+.aerospace, .nightmuseum, .Starry-Night, .windpower {
+  height: auto;
+}
 .aerospace {
   background-color: rgb(255, 238, 0);
-  height: auto;
+  
 }
 
 .nightmuseum {
   background-color: #dca47b;
-  height: auto;
+  
 }
 
 .Starry-Night {
@@ -20,7 +22,7 @@
 }
 .windpower {
   background-color: #9acaec;
-  height: auto;
+ 
 }
 .event-image {
   height: auto;
@@ -299,7 +301,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #75c1df;
+  transform: translateY(-10px);
+  box-shadow: 0px 18px 8px -10px rgb(0, 0 , 0 ,.75);
+
 }
 
 
@@ -320,7 +325,7 @@ input[type="submit"]:hover {
 }
 .visitus-banner {
   height: 700px;
-  filter: brightness(70%);
+  filter: brightness(90%);
 }
 
 .food-shop-image {

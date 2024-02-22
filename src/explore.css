@@ -3,9 +3,9 @@
 /*EXPLORE PAGE*/
 
 .explore-banner {
-  height: 700px;
-  filter: brightness(70%);
-  margin-top: 70px;
+  margin-top: 40px;
+  filter: brightness(90%);
+  height: 800px;
 }
 
 .container1 {
@@ -113,14 +113,12 @@
   text-align: center;
   padding: 20px;
 }
-
-p {
+/*p {
   text-align: center;
   font-family: "Atkinson Hyperlegible", sans-serif;
   padding-bottom: 20px;
-}
+}*/
 
-/* Media Query for smaller screens (e.g., mobile devices) */
 @media (max-width: 820px) {
   .container {
     flex-direction: column-reverse;
@@ -239,9 +237,9 @@ p {
   }
 }
 
-.footer-wrapper p {
+/*.footer-wrapper p {
   text-align: center;
   font-size: 16px;
   font-family: "Audiowide", sans-serif;
   text-align: center;
-}
+}*/

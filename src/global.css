@@ -204,13 +204,14 @@ h2 {
   margin-bottom: 20px;
 }
 
-.terms-conditions p {
+.terms-privacy p {
   font-size: 18px;
   font-family: "Audiowide", sans-serif;
   text-align: center;
+  padding: 20px;
 }
 
-.terms-conditions p a {
+.terms-privacy p a {
   text-decoration: none;
   color: yellowgreen;
 }
@@ -252,5 +253,10 @@ video{
   video{
     padding-top: 0px;
     }
+    .explore-banner {
+      margin-top: 0px;
+    }
+    .image-banner{
+      margin-top: 0px;
+    }
   }
-
