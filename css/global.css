@@ -259,3 +259,7 @@ video{
       margin-top: 0px;
     }
   }
+
+  a {
+    text-decoration: none;
+}
