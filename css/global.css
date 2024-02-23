@@ -71,11 +71,11 @@ img {
   list-style: none;
   background-color: #13475b;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px 1px whitesmoke;
+  box-shadow: 1px 1px 1px 1px rgb(216, 179, 13);
   color: white;
   width: 100%;
   z-index: 2;
-  margin-right: 5px;
+  
 }
 
 #main-menu > ul {
@@ -104,7 +104,6 @@ li {
   cursor: pointer;
   text-align: center;
   margin-top: 20px;
-  margin-left: 5%;
 }
 
 li a {
