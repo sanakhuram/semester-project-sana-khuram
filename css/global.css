@@ -75,7 +75,6 @@ img {
   color: white;
   width: 100%;
   z-index: 2;
-  
 }
 
 #main-menu > ul {
@@ -85,8 +84,7 @@ img {
 
 #main-menu > ul > li > a {
   display: inline-block;
-  color: white;
-  margin: 7px;
+  color: white; 
 }
 
 #main-menu,
@@ -99,18 +97,19 @@ img {
 }
 
 li {
-  width: 300px;
-  padding: 5px;
+  flex-grow: 1;
   cursor: pointer;
   text-align: center;
-  margin-top: 20px;
+  padding: 15px;
+  margin-top: 10px;
 }
 
 li a {
   text-decoration: none;
   color: white;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  text-align: center;
 }
 
 li:hover a {
@@ -132,6 +131,12 @@ li:hover a {
     font-size: 16px;
   }
 }
+@media screen and (min-width: 1201px) {
+  .li {
+    font-size: 15px;
+  }
+}
+
 
 .heading-over-image {
   position: absolute;

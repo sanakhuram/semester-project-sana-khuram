@@ -157,6 +157,10 @@ h3 {
   }
   .icon-text {
     display: block;
+    text-decoration: none;
+  }
+  .icon-text a{
+    text-decoration: none;
   }
 }
 
