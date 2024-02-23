@@ -134,13 +134,6 @@ li:hover a {
   }
 }
 
-.image-banner {
-  width: 100%;
-  background-size: cover;
-  display: block;
-  height: auto;
-}
-
 .heading-over-image {
   position: absolute;
   top: 40%;

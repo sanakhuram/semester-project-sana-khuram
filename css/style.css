@@ -254,6 +254,13 @@ h3 {
   font-size: 30px;
   font-family: "Audiowide", sans-serif;
 }
+.image-banner {
+  width: 100%;
+  background-size: cover;
+  display: block;
+  height: auto;
+  padding-top: 40px;
+}
 
 /*visit us*/
 form {
