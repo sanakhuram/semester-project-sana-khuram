@@ -1,9 +1,5 @@
 @import url("./global.css");
 
-
-
-
-
 /*EXPLORE PAGE*/
 
 .explore-banner {
@@ -122,10 +118,7 @@ p {
 }
 
 @media (max-width: 820px) {
-  .container {
-    flex-direction: column-reverse;
-  }
-
+ 
   .container1 {
     flex-direction: column;
   }
@@ -148,7 +141,7 @@ p {
     }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1202px) {
   .text-container p {
     font-size: 18px;
     line-height: normal;

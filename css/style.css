@@ -315,6 +315,13 @@ input[type="submit"]:hover {
 
 }
 
+.container-dinosaur,
+.container-location{
+  display: flex;
+  background-color: white;
+  width: 100%;
+
+}
 
 .image img {
   max-width: 100%;
@@ -359,6 +366,14 @@ input[type="submit"]:hover {
   line-height: 1.6;
   padding: 30px;
   font-size: 20px;
+}
+@media screen and (max-width: 1204px) {
+  .container-dinosaur {
+    flex-direction: column-reverse;
+  }
+  .container-location{
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 920px) {
