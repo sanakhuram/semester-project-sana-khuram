@@ -158,7 +158,6 @@ h3 {
 }
 
 /*admissiona nd opening hours*/
-.container1,
 .container2 {
   display: flex;
   width: 100%;
@@ -167,10 +166,10 @@ h3 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.container1 {
+.black {
   background-color: rgb(192, 190, 190);
 }
-.container2 {
+.peach {
   background-color: #fe846a;
 }
 .image-container {
@@ -210,7 +209,6 @@ h3 {
   .container {
     flex-direction: column-reverse;
   }
-  .container1,
   .container2 {
     flex-direction: column;
   }
