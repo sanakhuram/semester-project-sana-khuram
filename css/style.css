@@ -146,7 +146,10 @@ h3 {
   color: rebeccapurple;
 }
 
-@media (max-width: 1100px) {
+@media only screen 
+  and (device-width: 1280px) 
+  and (device-height: 800px) 
+  and (-webkit-device-pixel-ratio: 2) {
   .icon-container {
     flex-wrap: nowrap;
     align-items: center;
@@ -190,12 +193,14 @@ h3 {
 }
 .image-container {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-container img {
   width: 100%;
   height: auto;
-  object-fit: cover;
 }
 
 .text-container1,
