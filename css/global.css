@@ -151,6 +151,7 @@ li:hover a {
     0 0 30px hwb(320 87% 10%), 0 0 40px #009688, 0 0 50px white,
     0 0 60px#009688, 0 0 70px #009688;
     border-radius: 10px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
 }
@@ -226,16 +227,6 @@ video{
    width: 100%;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
 
 
   .hamburger-icon img {
