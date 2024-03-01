@@ -268,11 +268,15 @@ video{
   video{
     padding-top: 0px;
     }
-    .explore-banner {
+    img.explore-banner {
+      height: auto;
       margin-top: 0px;
+  }
+    img.image-banner{
+      padding: 0px;
     }
-    .image-banner{
-      margin-top: 0px;
+    h1.about-us{
+      font-size: 18px;
     }
     
   }
