@@ -1,77 +1,88 @@
-
-# Community Science Museum
-## “Explore together”
-
-Welcome to my first project semester 1 exam brief.
-
-## Client
-An interactive science museum called the *Community Science Museum* is opening soon near your location. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
-
-You may adapt the name of the museum to suit your location, but the core audience should remain the same.
+# Community Science Museum - "Explore Together"
 
 
-### Brief 
+![Community Science Museum](https://i.postimg.cc/YqckKBgG/Home.jpg)
 
-Design and build a modern, accessible and responsive web presence for the client using the provided image and text content.
+Welcome to the official repository for the Community Science Museum website project, designed for primary and middle school children (ages 7-15) and their families. This project is part of my first semester exam brief and focuses on building a modern, accessible, and responsive web presence for an interactive science museum.
 
-The site should appeal to youngsters without pandering; while aiming at a younger audience it should not patronise them with overtly childish themes. The core purpose of the site is to excite and entice people to visit the museum.
+## Description
 
-The client has not supplied a logo because the museum committee cannot decide on a final design. You are free to create a placeholder logo for the client.
+This project aims to create an engaging, user-friendly website for the Community Science Museum. The website is designed to excite and entice children and families to visit the museum while maintaining a professional and educational tone.
 
+The project includes:
+- A home page that showcases key information and impactful imagery
+- A contact page with essential information (address, phone, hours) and a contact form
+- A contribution page detailing how to support the museum
+- An exhibitions page featuring upcoming events and exhibits
+- A privacy policy page outlining data protection practices
+- A terms and conditions page
 
-### User Stories
+### Core Features
+- **Responsive Design:** The website is optimized for mobile, tablet, and large screens.
+- **Accessibility:** Built with inclusive design principles, ensuring usability for users with disabilities.
+- **Cross-browser Compatibility:** Ensuring the site works seamlessly across major browsers.
+- **No Frameworks:** CSS frameworks are avoided to meet the project’s requirements.
+  
+## Built With
 
-The following user stories must be fulfilled in order to complete the project.
-1.	A visitor can view a home page showing key information and impactful imagery.
-2.	A visitor can view a contact page showing the museum's address, phone number, opening hours and contact form.
-3.	A visitor can view a contribution showing information on how to contribute to the museum.
-4.	A visitor can view an exhibitions showing upcoming events and available exhibitions.
-5.	A visitor can view a privacy policy page showing the museum's privacy policy.
-6.	A visitor can view a terms and conditions page showing the museum's terms and conditions.
+- **HTML5:** For semantic and accessible structure.
+- **CSS3:** To ensure responsive and appealing designs.
+- **Figma:** Used for creating the style guide and high-fidelity wireframes.
+- **GitHub Pages:** For project deployment and preview.
+- **GitHub Projects:** For project management via a Kanban board.
 
+## Getting Started
 
-### views
+### Installing
 
-Based on the user stories above, the minimum views required to complete the project are:
-•	Home page view
-•	Contact page view
-•	Contribution page view
-•	Exhibitions page view
-•	Document page view
+To set up the project locally, follow these steps:
 
-## Requirements 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/community-science-museum.git
+   ```
 
-Project images should be sized appropriately and optimised for web delivery.
-•	The project must be responsive on mobile, tablet and large screen devices.
-•	The project must be cross-browser compatible.
-•	The project must be accessible to a range of users including those with impairments or disabilities.
-•	The project must be built using semantic HTML elements.
-•	The project must adhere to the CSS DRY principle.
-•	The project must be well tested before delivery.
-•	The project design language must appeal to the target audience.
+2. Navigate to the project directory:
+   ```bash
+   cd community-science-museum
+   ```
 
-### Limitations
+### Running
 
-•	You may not use a CSS framework to complete this assignment.
-•	You may not use unlicensed imagery in this assignment.
-•	You may not use JavaScript in this assignment.
+Since the project is built with HTML and CSS (no JavaScript or complex build processes), you can simply open the `index.html` file in your browser to view the website locally.
 
+1. Open the project folder and click on `index.html` or drag it into your browser.
+   
+Alternatively, you can serve the site using a simple HTTP server for a more professional development setup:
 
-## Deliverables
+```bash
+npx serve
+```
 
-In order to complete the project we require the following assets to be supplied in your submission:
-•	(Figma) Style guide showing logo, colour scheme, typography and style rules.
-•	(Figma) High fidelity wireframe for each requested view.
-•	(GitHub) Project source code hosted in a public repository.
-•	(GitHub Pages) Deployed project preview URL.
-•	(GitHub Projects) Project Kanban board showing project progress.
-•	(Word) Written report including references.
+## Contributing
 
-## Resources
+Contributions are welcome! To contribute:
 
-The client has supplied suggested images and text content that can be used on the site. These resources are licensed for use for a web project. Content is supplied *as is* from the client and has not been edited.
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature-branch-name`).
+3. Make your changes and commit them (`git commit -m 'Add a new feature'`).
+4. Push to the branch (`git push origin feature-branch-name`).
+5. Open a pull request.
 
-Additional imagery and text can be created as necessary, but it is important to include all of the provided text content at a minimum. Additional image content must be licensed correctly for use in a public project.
+Please ensure all contributions follow the museum’s accessible design and CSS DRY principle.
 
+## Contact
 
+For any questions or collaborations, feel free to reach out:
 
+- [Connect with me on LinkedIn](https://www.linkedin.com/in/sana-khuram-157ba02b7/)
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Images and content provided by the client.
+- [Unsplash](https://unsplash.com) for additional imagery used in the project (licensed for free use).
+  
