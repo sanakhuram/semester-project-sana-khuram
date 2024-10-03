@@ -78,7 +78,7 @@ For any questions or collaborations, feel free to reach out:
 
 ## 📜 License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
