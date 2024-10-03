@@ -76,10 +76,6 @@ For any questions or collaborations, feel free to reach out:
 
 - [Connect with me on LinkedIn](https://www.linkedin.com/in/sana-khuram-157ba02b7/) 💼
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
 ## 🙏 Acknowledgments
 
 - 🖼️ Images and content provided by the client.
