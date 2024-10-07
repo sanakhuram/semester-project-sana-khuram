@@ -58,17 +58,6 @@ Alternatively, you can serve the site using a simple HTTP server for a more prof
 npx serve
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! 🎉 To contribute:
-
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-branch-name`).
-3. Make your changes and commit them (`git commit -m 'Add a new feature'`).
-4. Push to the branch (`git push origin feature-branch-name`).
-5. Open a pull request. 🚀
-
-Please ensure all contributions follow the museum’s accessible design and CSS DRY principle. 🌟
 
 ## 📞 Contact
 
@@ -79,7 +68,7 @@ For any questions or collaborations, feel free to reach out:
 ## 🙏 Acknowledgments
 
 - 🖼️ Images and content provided by the client.
-- 🖼️ [Unsplash](https://unsplash.com) for additional imagery used in the project (licensed for free use).
+- 🖼️ [Unsplash](https://unsplash.com) for additional imagery used in the project.
 
 🔗 You can view the live project on [GitHub Pages](https://sanakhuram.github.io/semester-project-sana-khuram/) 🌐
 
