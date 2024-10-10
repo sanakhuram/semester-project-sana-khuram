@@ -1,6 +1,9 @@
 # 🏛️ Community Science Museum - "Explore Together" 🌍
 
-![Community Science Museum](https://i.postimg.cc/0NSd4mqJ/Screenshot-2024-10-01-220538.png)
+![Community Science Museum](https://github.com/user-attachments/assets/85c91f9c-b573-440b-bbd6-890993b3a828)
+
+
+
 
 Welcome to the official repository for the **Community Science Museum** website project, designed for primary and middle school children (ages 7-15) and their families. 🎉 This project is part of my first semester exam brief and focuses on building a modern, accessible, and responsive web presence for an interactive science museum. 🧑‍🔬👩‍🔬
 
@@ -58,17 +61,6 @@ Alternatively, you can serve the site using a simple HTTP server for a more prof
 npx serve
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! 🎉 To contribute:
-
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-branch-name`).
-3. Make your changes and commit them (`git commit -m 'Add a new feature'`).
-4. Push to the branch (`git push origin feature-branch-name`).
-5. Open a pull request. 🚀
-
-Please ensure all contributions follow the museum’s accessible design and CSS DRY principle. 🌟
 
 ## 📞 Contact
 
@@ -76,16 +68,16 @@ For any questions or collaborations, feel free to reach out:
 
 - [Connect with me on LinkedIn](https://www.linkedin.com/in/sana-khuram-157ba02b7/) 💼
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
 ## 🙏 Acknowledgments
 
 - 🖼️ Images and content provided by the client.
-- 🖼️ [Unsplash](https://unsplash.com) for additional imagery used in the project (licensed for free use).
+- 🖼️ [Unsplash](https://unsplash.com) for additional imagery used in the project.
 
+## 👀 Live Demo
 🔗 You can view the live project on [GitHub Pages](https://sanakhuram.github.io/semester-project-sana-khuram/) 🌐
+
+## 👩🏻‍🎨 Design File
+🔗 You can view Figma Design on [Figma File](https://www.figma.com/design/yOPfl94ZxmHg4lmsAaznZe/COmmunity-science-museum?node-id=823-179&node-type=canvas&t=Lr158V5ARhxWWSEQ-0)🎨
 
 ---
 
