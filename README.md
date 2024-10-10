@@ -1,6 +1,7 @@
 # 🏛️ Community Science Museum - "Explore Together" 🌍
 
-![Community Science Museum](https://github.com/user-attachments/assets/85c91f9c-b573-440b-bbd6-890993b3a828)
+![Community Science Museum](https://github.com/user-attachments/assets/9afaee2d-cb55-4422-9ae1-6db75adbf696)
+
 
 
 
