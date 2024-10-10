@@ -70,7 +70,10 @@ For any questions or collaborations, feel free to reach out:
 - 🖼️ Images and content provided by the client.
 - 🖼️ [Unsplash](https://unsplash.com) for additional imagery used in the project.
 
+## 👀 Live Demo
 🔗 You can view the live project on [GitHub Pages](https://sanakhuram.github.io/semester-project-sana-khuram/) 🌐
+
+## 👩🏻‍🎨 Design File
 🔗 You can view Figma Design on [Figma File](https://www.figma.com/design/yOPfl94ZxmHg4lmsAaznZe/COmmunity-science-museum?node-id=823-179&node-type=canvas&t=Lr158V5ARhxWWSEQ-0)🎨
 
 ---
