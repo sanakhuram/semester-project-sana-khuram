@@ -1,9 +1,6 @@
 # 🏛️ Community Science Museum - "Explore Together" 🌍
 
-![Community Science Museum](https://github.com/user-attachments/assets/9afaee2d-cb55-4422-9ae1-6db75adbf696)
-
-
-
+![Community Science Museum](https://github.com/user-attachments/assets/7552a498-51f2-446e-a070-949d2dc211bb)
 
 
 Welcome to the official repository for the **Community Science Museum** website project, designed for primary and middle school children (ages 7-15) and their families. 🎉 This project is part of my first semester exam brief and focuses on building a modern, accessible, and responsive web presence for an interactive science museum. 🧑‍🔬👩‍🔬
